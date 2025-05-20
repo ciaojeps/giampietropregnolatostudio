@@ -1,24 +1,30 @@
 {
-  "name": "r3f-template",
+  "name": "giampietropregnolato.com",
   "version": "1.0.0",
-  "description": "",
-  "keywords": [],
+  "description": "Physics, effects, lights and colors.",
+  "keywords": [
+    "effects",
+    "physics",
+    "baubles"
+  ],
   "main": "src/index.js",
   "dependencies": {
-    "@react-three/drei": "9.114.0",
-    "@react-three/fiber": "8.17.8",
-    "react": "18.0.0",
-    "react-dom": "18.0.0",
-    "react-scripts": "5.0.0",
-    "three": "0.168.0",
-    "noisejs": "2.1.0",
-    "postprocessing": "6.36.2",
-    "@react-three/postprocessing": "2.16.2",
-    "maath": "0.10.8",
-    "gsap": "3.12.5",
-    "@gsap/react": "2.1.1"
+    "@react-three/cannon": "6.5.2",
+    "@react-three/drei": "9.69.1",
+    "@react-three/fiber": "8.13.0",
+    "@react-three/postprocessing": "2.13.0",
+    "@react-three/rapier": "0.13.2",
+    "@types/three": "0.153.0",
+    "leva": "0.9.34",
+    "maath": "0.5.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-scripts": "5.0.1",
+    "three": "0.152.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "typescript": "3.8.3"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
