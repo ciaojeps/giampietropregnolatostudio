@@ -1,2 +1,0 @@
-# giampietropregnolatostudio
-Created with CodeSandbox
